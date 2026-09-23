@@ -1,207 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Elliot O. Cornier | Robotics & Control</title>
-
-    <meta name="description"
-        content="Personal portfolio showcasing robotics, control systems, electronics and software projects.">
+    <title>Elliot Cornier — Robotics &amp; Control</title>
+    <meta
+        name="description"
+        content="Elliot Cornier is an M.Sc. student in robotics and control at OsloMet, based in Oslo, Norway."
+    >
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="site-name" href="#top">Elliot Cornier</a>
 
-    <nav>
-        <div class="nav-container">
-            <a href="#" class="logo">Home</a>
-
-            <div class="nav-links">
-                <a href="#about">About Me</a>
-                <a href="#projects">Projects</a>
-                <a href="#skills">Skills</a>
+            <nav aria-label="Main navigation">
+                <a href="#work">Work</a>
+                <a href="#about">About</a>
                 <a href="#contact">Contact</a>
-            </div>
+            </nav>
         </div>
-    </nav>
+    </header>
 
-
-    <main>
-
-        <!-- HERO -->
-        <section class="hero">
-
-            <p class="eyebrow">ROBOTICS • CONTROL • ENGINEERING</p>
-
-            <h1>
-                Hi, I'm <span>Your Name.</span>
-            </h1>
-
-            <p class="hero-description">
-                Engineering student interested in robotics, control systems,
-                embedded systems and autonomous machines.
-            </p>
-
-            <div class="hero-buttons">
-                <a href="#projects" class="button primary">
-                    View Projects
-                </a>
-
-                <a href="https://github.com/kubmayano" target="_blank" class="button secondary">
-                    GitHub ↗
-                </a>
-            </div>
-
+    <main id="top" class="container">
+        <section class="introduction" aria-labelledby="intro-heading">
+            <h1 id="intro-heading">Elliot Cornier</h1>
+            <p class="role">M.Sc. student in robotics &amp; control at OsloMet.</p>
+            <p>Based in Oslo, Norway.</p>
         </section>
 
+        <section id="work" aria-labelledby="work-heading">
+            <h2 id="work-heading">Selected work</h2>
 
-        <!-- ABOUT -->
-        <section id="about">
+            <!--
+                PROJECTS: Replace the placeholder below with one <article> per project.
 
-            <p class="section-label">01 — ABOUT</p>
+                Suggested structure:
 
-            <h2>Building things that move, sense and think.</h2>
-
-            <p class="section-text">
-                I'm an engineering student with an interest in robotics,
-                electronics, control theory and software development.
-                I enjoy working on systems where hardware and software
-                have to work together.
-            </p>
-
-        </section>
-
-
-        <!-- PROJECTS -->
-        <section id="projects">
-
-            <p class="section-label">02 — PROJECTS</p>
-
-            <h2>Selected work.</h2>
-
-            <div class="project-grid">
-
-                <article class="project-card">
-
-                    <div class="project-number">01</div>
-
-                    <h3>Lunar Rover</h3>
-
-                    <p>
-                        A remotely operated rover prototype integrating
-                        closed-loop motor control, LiDAR mapping, IMU sensing
-                        and ROS 2.
-                    </p>
-
-                    <div class="tags">
-                        <span>ROS 2</span>
-                        <span>C++</span>
-                        <span>Python</span>
-                        <span>LiDAR</span>
-                    </div>
-
-                    <a href="#" class="project-link">
-                        View project →
-                    </a>
-
+                <article class="project">
+                    <h3><a href="PROJECT_URL">Project title</a></h3>
+                    <p>A short, factual description of the project and your contribution.</p>
+                    <p class="project-meta">C++, ROS 2, Python</p>
                 </article>
 
-
-                <article class="project-card">
-
-                    <div class="project-number">02</div>
-
-                    <h3>Project Coming Soon</h3>
-
-                    <p>
-                        This section is ready for another robotics,
-                        electronics, control or software project.
-                    </p>
-
-                    <div class="tags">
-                        <span>Engineering</span>
-                        <span>Software</span>
-                    </div>
-
-                    <a href="#" class="project-link">
-                        Coming soon
-                    </a>
-
-                </article>
-
-            </div>
-
+                If a project has no link, use <h3>Project title</h3> instead.
+            -->
+            <p class="placeholder">Project details will be added here.</p>
         </section>
 
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About</h2>
 
-        <!-- SKILLS -->
-        <section id="skills">
-
-            <p class="section-label">03 — SKILLS</p>
-
-            <h2>Technologies I work with.</h2>
-
-            <div class="skills">
-
-                <span>C++</span>
-                <span>Python</span>
-                <span>MATLAB</span>
-                <span>ROS 2</span>
-                <span>Linux</span>
-                <span>Git</span>
-                <span>Embedded Systems</span>
-                <span>Control Systems</span>
-                <span>Electronics</span>
-
-            </div>
-
+            <!--
+                ABOUT: Replace this paragraph with Elliot's biography.
+                A useful length for this layout is roughly 80–150 words.
+            -->
+            <p class="placeholder">A short biography will be added here.</p>
         </section>
 
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact</h2>
 
-        <!-- CONTACT -->
-        <section id="contact" class="contact">
+            <!--
+                CONTACT: Replace the placeholder with the links you want to publish.
 
-            <p class="section-label">04 — CONTACT</p>
+                Suggested structure:
 
-            <h2>Let's build something.</h2>
-
-            <p>
-                You can find my work on GitHub or get in touch through
-                LinkedIn.
-            </p>
-
-            <div class="hero-buttons">
-
-                <a href="https://github.com/kubmayano" target="_blank" class="button primary">
-                    GitHub
-                </a>
-
-                <a href="#" class="button secondary">
-                    LinkedIn
-                </a>
-
-            </div>
-
+                <ul class="contact-links">
+                    <li><a href="mailto:EMAIL_ADDRESS">Email</a></li>
+                    <li><a href="GITHUB_URL">GitHub</a></li>
+                    <li><a href="LINKEDIN_URL">LinkedIn</a></li>
+                </ul>
+            -->
+            <p class="placeholder">Contact details will be added here.</p>
         </section>
-
     </main>
 
-
-    <footer>
-
-        <p>
-            © 2026 Your Name
-        </p>
-
-        <p>
-            Built with HTML & CSS.
-        </p>
-
+    <footer class="container">
+        <p>&copy; 2026 Elliot Cornier</p>
     </footer>
-
 </body>
-
 </html>
